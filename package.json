@@ -2,10 +2,10 @@
 	"name": "Books",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/liyasthomas/books.git"
+		"url": "https://github.com/Muzmmil207/find-books.git"
 	},
 	"description": "Find books from Google Play Books",
-	"author": "liyasthomas",
+	"author": "Muzmmil207",
 	"version": "0.0.1",
 	"devDependencies": {
 		"jshint": "^2.10.2"
