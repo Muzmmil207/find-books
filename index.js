@@ -15,6 +15,7 @@ const extractThumbnail = ({ imageLinks }) => {
   }
   return imageLinks.thumbnail.replace("http://", "https://");
 };
+
 const drawChartBook = async (subject, startIndex = 0) => {
   let cbookContainer = document.querySelector(`.${subject}`);
   cbookContainer.innerHTML = `<div class='prompt'><div class="loader"></div></div>`;
@@ -49,6 +50,7 @@ const drawChartBook = async (subject, startIndex = 0) => {
       .join("");
   }
 };
+
 const drawListBook = async () => {
   if (searchBooks.value != "") {
     bookContainer.style.display = "flex";
@@ -82,6 +84,7 @@ const drawListBook = async () => {
     bookContainer.style.display = "none";
   }
 };
+
 const updateFilter = ({ innerHTML }, f) => {
   document.getElementById("main").scrollIntoView({
     behavior: "smooth",
@@ -98,9 +101,11 @@ const updateFilter = ({ innerHTML }, f) => {
   searchBooks.value = m + innerHTML;
   debounce(drawListBook, 1000);
 };
+
 const debounce = (fn, time, to = 0) => {
   to ? clearTimeout(to) : (to = setTimeout(drawListBook, time));
 };
+
 searchBooks.addEventListener("input", () => debounce(drawListBook, 1000));
 document.addEventListener("DOMContentLoaded", () => {
   drawChartBook("love");
@@ -112,6 +117,7 @@ document.addEventListener("DOMContentLoaded", () => {
   drawChartBook("fantasy");
   drawChartBook("romance");
 });
+
 let mainNavLinks = document.querySelectorAll(".scrolltoview");
 window.addEventListener("scroll", (event) => {
   let fromTop = window.scrollY + 64;
@@ -127,11 +133,13 @@ window.addEventListener("scroll", (event) => {
     }
   });
 });
+
 const getRandomColor = () =>
   `#${Math.floor(Math.random() * 16777215).toString(16)}40`;
 const toggleSwitch = document.querySelector(
   '.theme-switch input[type="checkbox"]'
 );
+
 if (localStorage.getItem("marcdownTheme") == "dark") {
   document.documentElement.setAttribute("data-theme", "dark");
   document
@@ -147,6 +155,7 @@ if (localStorage.getItem("marcdownTheme") == "dark") {
   toggleSwitch.checked = false;
   localStorage.setItem("marcdownTheme", "light");
 }
+
 const switchTheme = ({ target }) => {
   if (target.checked) {
     document.documentElement.setAttribute("data-theme", "dark");
@@ -162,6 +171,7 @@ const switchTheme = ({ target }) => {
     localStorage.setItem("marcdownTheme", "light");
   }
 };
+
 toggleSwitch.addEventListener("change", switchTheme, false);
 let startIndex = 0;
 const next = (subject) => {
@@ -184,6 +194,7 @@ const prev = (subject) => {
     drawChartBook(subject, startIndex);
   }
 };
+
 const modal = document.querySelector(".modal");
 const trigger = document.querySelector(".trigger");
 const closeButton = document.querySelector(".close-button");
@@ -193,6 +204,7 @@ const windowOnClick = ({ target }) => {
     toggleModal();
   }
 };
+
 trigger.addEventListener("click", toggleModal);
 closeButton.addEventListener("click", toggleModal);
 window.addEventListener("click", windowOnClick);
@@ -214,6 +226,7 @@ let deferredPrompt = null;
 window.addEventListener("beforeinstallprompt", (e) => {
   deferredPrompt = e;
 });
+
 async function installPWA() {
   if (deferredPrompt) {
     deferredPrompt.prompt();
@@ -227,6 +240,7 @@ async function installPWA() {
     });
   }
 }
+
 window.addEventListener("appinstalled", (evt) => {
   localStorage.setItem("pwaInstalled", "yes");
   pwaInstalled = true;

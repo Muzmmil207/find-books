@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.com/liyasthomas/books.svg?branch=master)](https://travis-ci.com/liyasthomas/books) [![GitHub release](https://img.shields.io/github/release/liyasthomas/books/all.svg)](https://github.com/liyasthomas/books/releases/latest) [![repo size](https://img.shields.io/github/repo-size/liyasthomas/books.svg)](https://github.com/liyasthomas/books/archive/master.zip) [![license](https://img.shields.io/github/license/liyasthomas/books.svg)](https://github.com/liyasthomas/books/blob/master/LICENSE) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/liyasthomas/books/issues) [![Website](https://img.shields.io/website-up-down-green-red/https/shields.io.svg?label=website)](https://liyas-thomas.firebaseapp.com) [![Donate](https://img.shields.io/badge/$-donate-ff69b4.svg)](https://www.paypal.me/liyascthomas)
+[![Build Status](https://travis-ci.com/liyasthomas/books.svg?branch=master)](https://travis-ci.com/liyasthomas/books) [![GitHub release](https://img.shields.io/github/release/liyasthomas/books/all.svg)](https://github.com/Muzmmil207/find-books/books/releases/latest) [![repo size](https://img.shields.io/github/repo-size/liyasthomas/books.svg)](https://github.com/Muzmmil207/find-books/books/archive/master.zip) [![license](https://img.shields.io/github/license/liyasthomas/books.svg)](https://github.com/Muzmmil207/find-books/books/blob/master/LICENSE) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/Muzmmil207/find-books/books/issues) [![Website](https://img.shields.io/website-up-down-green-red/https/shields.io.svg?label=website)](https://liyas-thomas.firebaseapp.com) [![Donate](https://img.shields.io/badge/$-donate-ff69b4.svg)](https://www.paypal.me/liyascthomas)
 
 # <img src="icons/icon-48x48.png" alt="books" width="32"> Books
 
-### 📚 Find books from Google Play Books by [Liyas Thomas](https://github.com/liyasthomas)
+### 📚 Find books from Google Play Books by [https://github.com/Muzmmil207/find-books](https://github.com/Muzmmil207/find-books)
 
 <div align="center">
   <br>
@@ -57,7 +57,7 @@ We use [Travis CI](https://travis-ci.com) for continuous integration. Check out 
 
 ## Versioning
 
-This project is developed by [Liyas Thomas](https://github.com/liyasthomas) using the [Semantic Versioning specification](https://semver.org). For the versions available, see the [releases on this repository](https://github.com/liyasthomas/books/releases).
+This project is developed by [Muzamil Ali](https://github.com/Muzmmil207/find-books) using the [Semantic Versioning specification](https://semver.org). For the versions available, see the [releases on this repository](https://github.com/Muzmmil207/find-books/books/releases).
 
 ---
 
@@ -70,12 +70,12 @@ See the [CHANGELOG](CHANGELOG.md) file for details.
 ## Authors
 
 ### Lead Developers
-* [**Liyas Thomas**](https://github.com/liyasthomas) - *Author*
+* [**https://github.com/Muzmmil207/find-books**](https://github.com/Muzmmil207/find-books) - *Author*
 
 ### Thanks
 * [StackOverflow](https://stackoverflow.com)
 
-See the list of [contributors](https://github.com/liyasthomas/books/graphs/contributors) who participated in this project.
+See the list of [contributors](https://github.com/Muzmmil207/find-books/books/graphs/contributors) who participated in this project.
 
 ---
 

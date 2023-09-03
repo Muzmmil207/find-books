@@ -1,6 +1,6 @@
 # Changelog
 # Title
-### Description by [Liyas Thomas](https://github.com/liyasthomas)
+### Description by [Muzamil Ali](https://github.com/Muzmmil207/find-books)
 
 ---
 
